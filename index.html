@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>To do App</title>
+    <meta
+      <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="style.css"
+      type="text/css"
+      media="screen"
+      charset="utf-8"
+    />
+    <link
+      rel="stylesheet"
+      href="responsive.css"
+      type="text/css"
+      media="screen"
+      charset="utf-8"
+    />
+  </head>
+  <body>
+    <h1>Your TO-DO LIST !!</h1>
+    <div class="Main">
+      <p>
+        <label for="new-task">Add Your New Tasks</label
+        ><input id="new-task" type="text" /><button>Add</button>
+      </p>
+
+      <h3>Todo</h3>
+      <ul id="incomplete-tasks">
+        <li>
+          <input type="checkbox" /><label>Complete Project 0</label
+          ><input type="text" /><button class="edit">Edit</button
+          ><button class="delete">Delete</button>
+        </li>
+        <li>
+          <input type="checkbox" /><label>Complete Project 1</label
+          ><input type="text" /><button class="edit">Edit</button
+          ><button class="delete">Delete</button>
+        </li>
+      </ul>
+
+      <h3>Completed</h3>
+      <ul id="completed-tasks">
+        <li>
+          <input type="checkbox" checked /><label>Complete Project 2</label
+          ><input type="text" /><button class="edit">Edit</button
+          ><button class="delete">Delete</button>
+        </li>
+      </ul>
+    </div>
+
+    <div id="clock">8:10:45</div>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
